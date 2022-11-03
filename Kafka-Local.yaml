@@ -2,7 +2,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   annotations:
-    fluxcd.io/automated: "false"
+    fluxcd.io/automated: "true"
 
   name: bitnami-kafka-ebr-01
   namespace: default
