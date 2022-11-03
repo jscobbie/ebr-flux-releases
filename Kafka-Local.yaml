@@ -17,11 +17,11 @@ spec:
   values:
     replicaCount: 1
     containerPorts:
-      client: 9092
+      client: 9096
   
     service:
       ports:
-        client: 9092
+        client: 9096
 
     image:
       repository: bitnami/kafka
