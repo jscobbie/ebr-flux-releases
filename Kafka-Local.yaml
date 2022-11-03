@@ -13,6 +13,7 @@ spec:
     version: 14.9.3
   
   releaseName: bitnami-kafka-ebr-01
+  targetNamespace: default
   helmVersion: v3
   values:
     replicaCount: 1
